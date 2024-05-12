@@ -1,5 +1,10 @@
 const Discord = require('discord.js');
-const client = new Discord.Client();
+const client = new Discord.Client({ 
+    intents: [ 
+        Discord.Intents.FLAGS.GUILDS, 
+        Discord.Intents.FLAGS.DIRECT_MESSAGES
+    ] 
+});
 const salonId = process.env.salonid;
 
 client.once('ready', () => {
