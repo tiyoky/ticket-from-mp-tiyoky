@@ -13,7 +13,7 @@ client.once('ready', () => {
 });
 
 client.on('message', async message => {
-    if (message.channel.type === 'dm') { 
+    if (message.channel.type === 'DM') { 
         const salon = client.channels.cache.get(salonId); 
         if (salon) {
             const embed = new Discord.MessageEmbed()
