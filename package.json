@@ -1,7 +1,7 @@
 {
-  "name": "votre-nom-de-projet",
+  "name": "ticket from mp tiyoky",
   "version": "1.0.0",
-  "description": "Description de votre projet",
+  "description": "un systeme de ticket par mp du bot",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
